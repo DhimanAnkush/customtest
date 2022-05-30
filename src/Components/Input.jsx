@@ -27,6 +27,7 @@ export const Input = ({
     <div className="inputContainer">
       {/* Add Right Logo */}
       <input className={`input`}
+      data-testid="input"
         value={value}
         type={show ? type : 'password'}
         style={{
